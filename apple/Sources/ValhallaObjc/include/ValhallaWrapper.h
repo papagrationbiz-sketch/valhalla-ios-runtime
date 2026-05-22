@@ -14,6 +14,7 @@
 
 - (NSString*)route:(NSString*)request;
 - (NSString*)traceAttributes:(NSString*)request;
+- (NSString*)traceRoute:(NSString*)request;
 
 @end
 

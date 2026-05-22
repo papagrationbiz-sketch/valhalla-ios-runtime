@@ -63,4 +63,8 @@ public final class Valhalla: ValhallaProviding {
     public func traceAttributes(rawRequest request: String) -> String {
         actor!.traceAttributes(request)
     }
+
+    public func traceRoute(rawRequest request: String) -> String {
+        actor!.traceRoute(request)
+    }
 }

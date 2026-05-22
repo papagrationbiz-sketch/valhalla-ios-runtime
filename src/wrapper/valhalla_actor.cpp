@@ -86,3 +86,9 @@ std::string ValhallaActor::trace_attributes(const std::string& request) {
     
     return result;
 }
+
+std::string ValhallaActor::trace_route(const std::string& request) {
+    std::string req = std::string(request);
+    std::string result = actor->trace_route(req);
+    return result;
+}
