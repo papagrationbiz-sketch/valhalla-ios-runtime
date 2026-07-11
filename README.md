@@ -23,7 +23,7 @@ In a swift package:
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/rallista/valhalla-mobile.git", from: "0.1.0"),
+        .package(url: "https://github.com/papagrationbiz-sketch/valhalla-ios-runtime.git", from: "0.1.0"),
     ],
     targets: [
         .target(
